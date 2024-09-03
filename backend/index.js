@@ -181,7 +181,6 @@ app.use(bodyParser.json());
 //       day: item.day,
 //       isLoss: item.isLoss,
 //     });
-
 //     newPosition.save();
 //   });
 //   res.send("Done!");
@@ -206,7 +205,6 @@ app.post("/newOrder", async (req, res) => {
   });
 
   newOrder.save();
-
   res.send("Order saved!");
 });
 
